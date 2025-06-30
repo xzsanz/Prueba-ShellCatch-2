@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TextInput } from 'react-native';
+import { View, Text, TextInput, Button } from 'react-native';
 
 const Login=( {navigation})=>{
     return(
@@ -14,6 +14,7 @@ const Login=( {navigation})=>{
             <TextInput
                 placeholder="Contraseña"
             />
+            <Button title="Iniciar Sesion"/>
         </View>
     );
 
